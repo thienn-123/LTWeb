@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\github\\ASPWeb\\Baitap2B\\Baitap2B\\Baitap2B.csproj": {}
+    "D:\\LTWeb\\LTWeb\\Baitap2B\\Baitap2B\\Baitap2B.csproj": {}
   },
   "projects": {
-    "C:\\github\\ASPWeb\\Baitap2B\\Baitap2B\\Baitap2B.csproj": {
+    "D:\\LTWeb\\LTWeb\\Baitap2B\\Baitap2B\\Baitap2B.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\github\\ASPWeb\\Baitap2B\\Baitap2B\\Baitap2B.csproj",
+        "projectUniqueName": "D:\\LTWeb\\LTWeb\\Baitap2B\\Baitap2B\\Baitap2B.csproj",
         "projectName": "Baitap2B",
-        "projectPath": "C:\\github\\ASPWeb\\Baitap2B\\Baitap2B\\Baitap2B.csproj",
-        "packagesPath": "C:\\Users\\bnguy\\.nuget\\packages\\",
-        "outputPath": "C:\\github\\ASPWeb\\Baitap2B\\Baitap2B\\obj\\",
+        "projectPath": "D:\\LTWeb\\LTWeb\\Baitap2B\\Baitap2B\\Baitap2B.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\LTWeb\\LTWeb\\Baitap2B\\Baitap2B\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\bnguy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
