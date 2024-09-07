@@ -26,10 +26,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = D:\LTWeb\LTWeb\BaiTapVeNha03
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/LTWeb/LTWeb/BaiTapVeNha03/Views/HomeController1/MayTinh.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZUNvbnRyb2xsZXIxXE1heVRpbmguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/LTWeb/LTWeb/BaiTapVeNha03/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,6 +40,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/LTWeb/LTWeb/BaiTapVeNha03/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/LTWeb/LTWeb/BaiTapVeNha03/Views/TinhToan/MayTinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGluaFRvYW5cTWF5VGluaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/LTWeb/LTWeb/BaiTapVeNha03/Views/_ViewImports.cshtml]
