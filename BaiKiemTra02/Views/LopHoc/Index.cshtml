@@ -1,0 +1,33 @@
+﻿<div class="container">
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Tên lớp học</th>
+				<th>Năm nhập học</th>
+				<th>Năm ra trường</th>
+				<th>Số lượng sinh viên</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in ViewBag.LopHoc)
+			{
+				<tr>
+			<td>@item.ID</td>
+            <td>@item.TenLopHoc</td>
+			<td>@item.SoLuongSinhVien</td>
+            <td> @item.NamNhapHoc</td>
+            <td>@item.NamRaTruong</td>
+            
+            <td>
+				<a asp-action="Edit" asp-route-id="@item.ID"> Edit </a>  |
+				<a asp-action="Delete" asp-route-id="@item.ID">Delete</a> |
+				<a asp-action="Detail" asp-route-id="@item.ID">Detail</a>
+            </td>
+        </tr>
+			}
+		</tbody>
+	</table>
+
+	<a asp-controller="LopHoc" asp-action="Create" class="btn btn-primary">Thêm mới</a>
+
+</div>
