@@ -1,0 +1,49 @@
+﻿<div class="container">
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Tên khách hàng</th>
+				<th>Địa chỉ</th>
+				<th>Số điện thoại</th>
+				<th>Email</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in ViewBag.Customer)
+			{
+				<tr>
+					<td width="25%">@item.CustomerName</td>
+					<td width="25">@item.Address</td>
+					<td width="25%"> @item.PhoneNumber</td>
+					<td width="25%"> @item.Email</td>
+					<td>
+						<a asp-action="Detail" asp-route-id="@item.Id">Detail</a>|
+						<a asp-action="Edit" asp-route-id="@item.Id"> Edit </a>  |
+						<a href="#" onclick="confirmDelete(@item.Id, $(this))">Delete</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+	<a asp-controller="Customer" asp-action="Create" class="btn btn-primary">Thêm mới</a>
+</div>
+<script>
+	function confirmDelete(id,row){
+		if (confirm("Ban có chắc muốn xóa sản phẩm có id là" + id + "?")) {
+			xoa(id, $(row))
+		}
+	}
+	function xoa(idx, row){
+		$.ajax(
+			{
+				url: 'SanPham/Delete',
+				data: {id: idx},
+				type:"POST",
+				success : function (data){
+					row.closest("tr").remove();
+				}
+			}
+		)
+	}
+</script>
+

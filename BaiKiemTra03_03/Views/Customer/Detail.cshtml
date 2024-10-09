@@ -1,0 +1,25 @@
+﻿@model BaiKiemTra03_03.Models.Customer
+
+<h2>Chi Tiết Khách Hàng</h2>
+
+<div class="form-group">
+    <label>Tên Khách Hàng:</label>
+    <p>@Model.CustomerName</p>
+</div>
+
+<div class="form-group">
+    <label>Địa Chỉ:</label>
+    <p>@Model.Address</p>
+</div>
+
+<div class="form-group">
+    <label>Số Điện Thoại:</label>
+    <p>@Model.PhoneNumber</p>
+</div>
+
+<div class="form-group">
+    <label>Email:</label>
+    <p>@Model.Email</p>
+</div>
+
+<a href="/Customer/Index" class="btn btn-primary">Quay Lại Danh Sách</a>
